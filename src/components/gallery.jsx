@@ -6,10 +6,9 @@ export const Gallery = (props) => {
     <div id="portfolio" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
+          <h2>Beyond the Headsets</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            We grind hard—but we celebrate harder. From boat parties and black-tie nights to giving back at orphanages and schools, this crew shows up with heart. New office? We throw down. Big win? We cheer loud. Around here, culture isn’t a perk—it’s the vibe. If you’re all in on ambition, community, and good times, this is your squad.
           </p>
         </div>
         <div className="row">

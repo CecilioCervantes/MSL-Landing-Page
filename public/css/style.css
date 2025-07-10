@@ -165,26 +165,27 @@ hr {
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
   background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-image: linear-gradient(to right, #FFD700 0%, #dbb800 100%);
   padding: 14px 34px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   margin: 0;
-  font-size: 15px;
-  font-weight: 500;
-  border-radius: 25px;
+  font-size: 30px;
+  font-weight: 900;
+  border-radius: 50px;
   transition: all 0.5s linear;
   border: 0;
+  margin-top: -40px;
 }
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom.focus,
 .btn-custom:active,
 .btn-custom.active {
-  color: #fff;
+  color: #000;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #bc9c22;
 }
 .btn:active,
 .btn.active {
@@ -240,8 +241,8 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 130px;
+  padding-bottom: 100px;
   text-align: center;
 }
 /* Features Section */
@@ -603,4 +604,14 @@ label {
   #about img {
     margin: 50px 0;
   }
+}
+
+
+
+.navbar-logo {
+  height: 70px;
+  width: auto;
+  display: block;
+  padding: 5px 0;
+  margin-top: -25px;
 }
