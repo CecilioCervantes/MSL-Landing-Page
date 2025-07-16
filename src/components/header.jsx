@@ -4,25 +4,25 @@ export const Header = (props) => {
   return (
     <header id="header">
       <div className="intro">
-        <div className="overlay">
-          <div className="container">
+        <img
+              src="../img/man2.png"  
+              alt="Call center rep"
+        />
+
             <div className="row">
-              <div className="col-md-8 col-md-offset-2 intro-text">
+ 
                 <h1>
                   {props.data ? props.data.title : "Loading"}
-                  <span></span>
+
                 </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
-                >
-                  Apply Now
-                </a>{" "}
-              </div>
-            </div>
-          </div>
+
+                <a className="btn-custom">
+                  Claim Your Chair 🔥
+                </a>
+
         </div>
+          <script id="respondio__widget" src="https://cdn.respond.io/webchat/widget/widget.js?cId=04f5673d5e8345b75be35bd1a6ecbe0"></script>
+
       </div>
     </header>
   );

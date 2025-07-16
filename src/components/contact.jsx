@@ -42,13 +42,12 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
+                <h2>Let’s Talk About Your Next Job</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Looking to join the team? Have questions about how we work? Fill out the form and one of our recruiters will hit you up ASAP — usually within the day.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -57,7 +56,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Full Name"
                         required
                         onChange={handleChange}
                       />
@@ -71,7 +70,7 @@ export const Contact = (props) => {
                         id="email"
                         name="email"
                         className="form-control"
-                        placeholder="Email"
+                        placeholder="Phone number"
                         required
                         onChange={handleChange}
                       />
@@ -85,7 +84,7 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Tell us a bit about yourself — where you're located and what kind of role you're looking for"
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -131,17 +130,17 @@ export const Contact = (props) => {
                 <ul>
                   <li>
                     <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
+                      <i className="fa-brands fa-facebook-f" style={{ color: "white", marginRight: '6px' }}></i>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                      <i className="fa-brands fa-instagram" style={{ color: "white", marginRight: '6px' }}></i>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                     <i className="fa-brands fa-youtube" style={{ color: "white", marginRight: '6px' }}></i>
                     </a>
                   </li>
                 </ul>
@@ -153,10 +152,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
+            &copy; 2025 Marketing Storm Leads.
           </p>
         </div>
       </div>

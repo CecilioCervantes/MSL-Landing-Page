@@ -33,11 +33,6 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
-                OPEN ROLES
-              </a>
-            </li>
-            <li>
               <a href="#portfolio" className="page-scroll">
                 OUR CULTURE
               </a>
@@ -49,12 +44,14 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#team" className="page-scroll">
-                Team
+                <i className="fa-brands fa-whatsapp" style={{ color: 'green', marginRight: '6px' }}></i>
+                <span style={{ color: 'green', fontWeight: 'bold' }}>dm</span>
               </a>
             </li>
             <li>
               <a href="#contact" className="page-scroll">
-                apply now
+                <i className="fa-solid fa-fire" style={{ color: 'red', marginRight: '6px' }}></i>
+                <span style={{ color: 'red', fontWeight: 'bold' }}>APPLY NOW</span>
               </a>
             </li>
           </ul>

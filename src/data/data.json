@@ -1,21 +1,15 @@
 {
   "Header": {
     "title": "The #1 team in weather damage appointment setting",
-    "paragraph": "Fluent in English and ready to make it happen? Step up your game with Marketing Storm Leads today."
+    "paragraph": "Ready to make it happen? We’re the go-to spot for money makers who want real pay and serious opportunity"
   },
   "About": {
-    "paragraph": "With over a decade in the game, we’ve become the top choice in the storm lead industry. At Marketing Storm Leads, we offer the best calling areas, a high-energy work environment, and the strongest compensation plan—base pay, commissions, bonuses, raffles, and promos that keep things exciting. We were the first storm lead call center in Mexico, and we’re still leading. Our team calls the hottest areas year-round, with real growth opportunities and daily wins. If you’re ready to earn more and be part of the best, this is it.",
+    "paragraph": "With over a decade in the game, we’ve become the top choice in the storm lead industry. At Marketing Storm Leads, we offer the best calling areas, a high-energy work environment, and the strongest compensation plan—base pay, commissions, bonuses, raffles, and promos that keep things exciting.",
     "Why": [
-      "Base pay + top commissions",
-      "Weekly raffles & bonuses",
-      "Hottest U.S. storm areas",
-      "Raises every 6 months"
-    ],
-    "Why2": [
-      "Fast-track promotions",
-      "Great vibes, solid team",
-      "All legal benefits included",
-      "Earn more for hitting goals"
+      "Base pay + best commissions and bonuses",
+      "Weekly raffles & daily competitions",
+      "Hottest U.S. storm areas, great vibes, solid team",
+      "Raises every 6 months, all legal benefits"
     ]
   },
   "Gallery": [
@@ -115,31 +109,31 @@
       "name": "JC"
     }
   ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
-    }
-  ],
+"Team": [
+  {
+    "img": "img/team/01.jpg",
+    "name": "Guadalajara / Zapopan",
+    "job": "This is where it all started. Our headquarters in Zapopan is the nerve center of our operation — a sleek, modern office where strategy meets action. We’re at the heart of Jalisco’s tech and talent scene."
+  },
+  {
+    "img": "img/team/02.jpg",
+    "name": "Tepic, Nayarit",
+    "job": "Small city, big drive. Tepic is where our hustle lives. Our local office is full of sharp agents who bring the energy every day and keep the momentum strong."
+  },
+  {
+    "img": "img/team/03.jpg",
+    "name": "Puerto Vallarta, Jalisco",
+    "job": "Beach vibes meet business goals. Our Vallarta team works steps away from the ocean — proving you can build something serious while living in paradise."
+  },
+  {
+    "img": "img/team/04.jpg",
+    "name": "Cairo, Egypt",
+    "job": "Our international branch. Cairo brings global perspective and fresh talent into the mix. This team is growing fast and represents our boldest expansion yet."
+  }
+],
   "Contact": {
     "address": "Av. Mariano Otero 3429, 44535 Guadalajara, Jal.",
-    "phone": "33-3823-1141",
+    "phone": "33-3823-1141, 33-2286-6071",
     "email": "hello@marketingstormleads.com.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
@@ -157,7 +151,7 @@
       "text": "We’re stacked across continents, dialing day and night. If there’s a hot market, we’re already on it."
     },
     {
-      "icon": "fa fa-money",
+      "icon": "fa fa-money-bill",
       "title": "On-Time Pay",
       "text": "We pay weekly, without delays—because your effort deserves fast and fair rewards."
     },
